@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTemperature"
+        android:text="31°C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="25%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="10%" />
+
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:text="70%"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#46ff33"
+        android:textColor="#000000"
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="25%"
+        app:layout_marginStartPercent="55%"
+        app:layout_marginTopPercent="10%" />
+
+    <ImageView
+        android:src="@drawable/icons_temperature"
+        android:scaleType="fitXY"
+        app:layout_widthPercent="10%"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="22%"
+        app:layout_marginTopPercent="12%" />
+
+    <ImageView
+        android:src="@drawable/icons_humidity"
+        android:scaleType="fitXY"
+        app:layout_widthPercent="10%"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="67%"
+        app:layout_marginTopPercent="12%" />
+
+    <ToggleButton
+        android:id="@+id/btnLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_heightPercent="20%"
+        app:layout_marginStartPercent="40%"
+        app:layout_marginTopPercent="60%"
+        app:layout_widthPercent="20%" />
+
+</androidx.percentlayout.widget.PercentRelativeLayout>
