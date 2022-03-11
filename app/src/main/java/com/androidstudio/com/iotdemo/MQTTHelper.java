@@ -15,10 +15,6 @@ import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 
-/**
- * Created by Le Trong Nhan on 18/02/2020.
- */
-
 public class MQTTHelper {
 
     final String serverUri = "tcp://io.adafruit.com:1883";
@@ -28,7 +24,7 @@ public class MQTTHelper {
     final String arrayTopics[] = {"khoikieu1608/feeds/+"};
 
     final String username = "khoikieu1608";
-    final String password = "aio_ORpa061KlKGzMAjZhsFl7KGLG4n1";
+    final String password = "aio_FlEg22CInMpD6TLXxr57GT6gQ90o";
 
 
 
